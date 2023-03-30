@@ -5,7 +5,7 @@ const cors = require("cors");
 const bcrypt = require("bcryptjs");
 
 const CLIENT = "http://localhost:3000";
-const MONGODB_ADDRESS = "mongodb+srv://admin:admin@users-system.ha4n1hd.mongodb.net/test";
+const MONGODB_ADDRESS = "mongodb+srv://USERNAME:PASSWORD@PATH.PATH.mongodb.net/test";
 
 app.use(
   cors({
